@@ -1,0 +1,125 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/pemandangan.jpg);
+    background-size:cover;
+  
+}
+
+body .form-login {
+  background-color: #FFF;
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  border-radius: 16px;
+}
+
+body .form-login h3{
+  text-align: center;
+  font-size: large;
+}
+
+body .form-login input{
+  margin-bottom: 10px;
+  width: 400px;
+  height: 40px;
+  padding-left: 20px;
+  background-color: #E5E9F2;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+body .form-login p{
+  text-align: right;
+  margin-top: 2px;
+  margin-bottom: 30px;
+}
+
+body .form-login p .link-lupa-password{
+  text-decoration: none;
+  color: rgb(68, 67, 98);
+  font-size: 13px;
+  font-weight: 300;
+}
+
+body .form-login p .link-lupa-password:hover{
+  text-decoration: none;
+  color: rgb(57, 126, 128);
+  font-size: 13px;
+  font-weight: 300;
+}
+
+body .form-login .tombollogin{
+  width: 100%;
+  border: 0px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: rgb(38, 38 ,229);
+  padding: 5px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #FFF;
+}
+
+body .form-login .tomboldaftarakun{
+  width: 100%;
+  border: 0px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #E5E9F2;
+  padding: 5px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+body .form-login .tomboldaftarakun:hover{
+  padding: 5px 20px;
+  font-size: 12px;
+  border: none;
+  background-color: rgb(95, 116, 118);
+  border-radius: 50px;
+}
+
+body .form-login .tomboldaftarakun:hover{
+  padding: 5px 20px;
+  font-size: 12px;
+  border: none;
+  background-color: rgb(95, 116, 118);
+  border-radius: 50px;
+}
+
+body .form-login hr{
+  color: #E5E9F2;
+  background-color: #E5E9F2;
+}
+
+body .form-login a .btn-google {
+  width: 100%;
+  border: none;
+  height: 40px;
+  border-radius: 50px;
+  background-color: rgb(35, 31 ,59);
+  color: #fff;
+  font-weight: 700;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+body .form-login .btn-google img {
+  width: 23px;
+  height: 23px;
+  margin-bottom: -7px;
+  margin-top: -19px;
+}
+
+
+
